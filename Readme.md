@@ -1,6 +1,5 @@
 # Densurance AI Project - Setup Guide
 
----
 
 ## Pre-requisites
 
@@ -18,6 +17,7 @@
 3. Under **Access keys**, click **Create access key**
 4. Select **Command Line Interface (CLI)** and confirm the checkbox
 5. Click **Next → Create access key**
+
 
 > You will receive an **Access Key ID** and a **Secret Access Key**.
  Download or copy them immediately.
