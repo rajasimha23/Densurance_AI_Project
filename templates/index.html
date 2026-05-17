@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Risk Assessment</title>
+</head>
+<body>
+
+    <h1>Professional Risk Assessment</h1>
+
+    <form action="/submit" method="POST">
+
+        <label>Name</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>Email</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>Role / Profession</label><br>
+        <input type="text" name="profession" required><br><br>
+
+        <label>Years of Experience</label><br>
+        <input type="number" name="experience" required><br><br>
+
+        <label>Work Type</label><br>
+        <select name="work_type">
+            <option>Standard</option>
+            <option>Specialised</option>
+            <option>High-risk</option>
+        </select><br><br>
+
+        <label>Prior Issues / Complaints</label><br>
+        <textarea name="prior_issues"></textarea><br><br>
+
+        <button type="submit">Assess Risk</button>
+
+    </form>
+
+</body>
+</html>
