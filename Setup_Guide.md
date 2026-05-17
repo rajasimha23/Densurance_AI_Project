@@ -53,7 +53,8 @@ pip install boto3 python-dotenv openai
 2. Select the **"Generate Text"** option
 
 **Step 1 : Generate API Key**
-- Copy the API key and paste it in your `.env` file
+- Copy the API key
+- Create a `.env` file in your folder and paste the key like this:
 ```powershell
 AWS_BEARER_TOKEN_BEDROCK="paste-here"
 ```
